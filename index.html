@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ScamCatch Shield</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main class="stage">
+  <section class="brand">
+    <svg class="brand-logo" viewBox="0 0 216 216" role="img" aria-label="ScamCatch Shield logo" xmlns="http://www.w3.org/2000/svg">
+      <defs><linearGradient id="lb" x1="0.15" y1="0" x2="0.05" y2="1"><stop offset="0" stop-color="#5CC4FA"/><stop offset="1" stop-color="#3F7BF0"/></linearGradient></defs>
+      <rect width="216" height="216" rx="56" fill="url(#lb)"/>
+      <rect x="5.6" y="5.6" width="204.8" height="204.8" rx="50.4" fill="#0B101F"/>
+      <g transform="translate(36 36) scale(1.44)">
+        <path d="M50 12 C68 12 84 20 84 32 C84 62 64 82 50 88 C36 82 16 62 16 32 C16 20 32 12 50 12 Z" fill="#64D6F6"/>
+        <path d="M38 38 L43 46 Q50 48 57 46 L62 38 Q65 47 62 55 Q50 63 38 55 Q35 47 38 38 Z" fill="#0B101F"/>
+        <circle cx="44.5" cy="50" r="2.4" fill="#8CECFF"/><circle cx="55.5" cy="50" r="2.4" fill="#8CECFF"/>
+      </g>
+    </svg>
+    <h1 class="brand-title">ScamCatch Shield</h1>
+    <p class="brand-tagline">AI-Powered SMS &amp; Call Scam Protection for Seniors &amp; Family Caregivers</p>
+  </section>
+  <div class="viewport">
+    <div class="phone-frame"></div>
+    <div class="screen-container" id="app"><p style="padding:24px;color:#A9B8D6">Loading ScamCatch… If this stays blank, app.js did not load. Check that it is in the same folder as index.html.</p></div>
+  </div>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
